@@ -1,1 +1,163 @@
-hy
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <!-- Setări ale paginii principale-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="revisit-after" content="1 month">
+        <meta name="description" content="Asculta live Radio Click, un radio online romanesc live pe internet" />
+        <meta name="keywords" content="Radio Click Romania, radioclick, radio online,"/>
+        <meta name="author" content="@ShowChat">
+        
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@showchat.ro" />
+        <meta name="twitter:title" content="Radio Click Romania" />
+        <meta name="twitter:description" content="Radio Click Romania" />
+        <meta name="twitter:image" content="https://cdn-radiotime-logos.tunein.com/s201995q.png" />
+        
+        <meta property="og:title" content="Radio Click Romania" />
+        <meta property="og:url" content="https://play.showchat.tk" />
+        <meta property="og:site_name" content="Radio Click Romania" />
+        <meta property="og:description" content="Asculta live Radio Click, un radio online romanesc live pe internet" />
+        <meta property="og:image" content="https://cdn-radiotime-logos.tunein.com/s201995q.png" />
+        <meta property="og:type" content="live.radioclick.ro" />
+        <meta property="music:creator" content="https://www.facebook.com/radioclick.romania" />
+      
+        <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+        <link rel="apple-touch-icon" href="img/favicon.png">
+        <meta name="apple-mobile-web-app-title" content="Flatkit">
+        <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+
+        <title>Radio Click Romania</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-style.css"> 
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+		    <link rel="stylesheet" href="css/BreakingNews.css"> 
+
+        <!-- PLAYER -->
+        <link rel="stylesheet" href="css/radioclick.css">
+
+        <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+         <![endif]-->
+
+    	  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <meta name="mobile-web-app-capable" content="yes">
+      	<!-- Fav icon -->
+      	<link rel="shortcut icon" type="favicon/png" href="img/favicon.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="shortcut icon" sizes="196x196" href="img/favicon-144x144.png">
+    </head>
+    <body id="nava-radio" class="header2 no-padding" >
+
+
+    <div class="myPlayer" id="radioclick">
+				<div class="wrapper">
+					<div class="bg-dots"></div>
+					<div class="bg-artwork"></div>
+					<div class="container">						
+						<div class="main-wrapper">
+							<div class="artwork animated"></div>
+							<div class="album-cover-wpr"></div>
+							<div class="album-cover animated"></div>
+							<div class="data-container">
+								<div class="now-playing">Radio Click Romania</div>
+								<div class="artist-name animated">RadioClick</div>	
+								<div class="songtitle animated">RadioClick</div>
+								</div>
+							
+							<div class="btn-container">								
+								<a href='https://api.whatsapp.com/send?phone=0' target='_blank'><div class='social-btn fab sb-whatsapp'></div></a>
+                                <a href="https://twitter.com/radioclick2009" target="_blank" id="atwitter"><div class="social-btn fab sb-twitter"></div></a>
+								<a href="https://www.facebook.com/radioclick.romania" target="_blank" id="aface"><div class="social-btn fab sb-facebook"></div></a>
+								<div class="ppBtn play-btn"></div>
+							</div>
+							<div class="ticker-container">
+								<div class="breakingNews" id="bn1">
+									<div class="bn-title"><h2>RCR</h2><span></span></div>
+									<ul>
+									    <li><a href="#">Asculta Radio Click Romania</a></li>
+									    <li><a href="https://www.radioclick.ro" target="_blank">Radio Click Romania - www.RadioClick.ro</a></li>
+									    <li><a href="https://www.romaniachat.eu" target="_blank">RomaniaChat - www.RomaniaChat.eu</p></a></li>
+									    <li><a href="#">Dedicati in direct pe RadioClick</a></li>
+									    <li><a href="#">Video Chat in direct pe RadioClick</a></li>
+									</ul>
+									<div class="bn-navi">
+										<span></span>
+										<span></span>
+									</div>
+								</div>
+							</div> 
+							<div class="volume-container">
+								<input class="volume-slider" type="range" min="0" max="100" step="0.10" value="" autocomplete="off">
+								<div class="volume-text-container">
+									<div style="float: left">VOLUME</div>
+									<div class="vol-value" style="float: right">100%</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				</div>
+			
+<div class="container">
+	<br>
+	<div class="history-wpr">
+		<div class="last5-title">
+			ISTORIE - ultimele melodi cântate
+		</div>
+	</div>
+</div>
+<!-- FOOTER -->
+<footer>
+
+</footer>
+
+<!-- Javascript =============================-->
+<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/breakingNews.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/radioclick.min.js"></script>
+<!-- must have -->
+
+<script>
+    $("#radioclick").rcr({
+	    URL: "https://castprox.herokuapp.com/http://live.radioclick.ro:8008",
+		version: "2",
+		//mount_point: "stream",
+		stream_id: 1,
+		show_listeners: true,
+		enable_cors: true,
+		autoplay: true,
+		authost_key: "live.radioclick.ro",
+		logo: "img/no-cover-large.gif",
+		authost_key: "live.radioclick.ro"
+    })
+</script>
+            
+<script>
+	$(window).load(function(e) {
+        $("#bn1").breakingNews({
+			effect		:"slide-v",
+			autoplay	:true,
+			timer		:10000,
+			color		:"blue"
+		});
+		
+	});
+ </script>
+
+</body>
+</html>
