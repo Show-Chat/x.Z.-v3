@@ -41,7 +41,7 @@
         <link rel="stylesheet" href="css/font-style.css"> 
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/style.css">
-		    <link rel="stylesheet" href="css/BreakingNews.css"> 
+        <link rel="stylesheet" href="css/BreakingNews.css"> 
 
         <!-- PLAYER -->
         <link rel="stylesheet" href="css/radioclick.css">
