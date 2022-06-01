@@ -1,0 +1,33 @@
+{
+  "background_color": "#ffffff",
+  "description": "Asculta live Radio Click, un radio online romanesc live pe internet",
+  "dir": "ltr",
+  "display": "minimal-ui",
+  "name": "Flatkit",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Flatkit",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/64x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "images/144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/145x145.png",
+      "type": "image/png",
+      "sizes": "145x145"
+    }
+  ]
+}
